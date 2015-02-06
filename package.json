@@ -1,0 +1,40 @@
+{
+  "name": "socket.model.client",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "./lib/socket.model.client",
+  "homepage": "https://github.com/luscus/socket.model.client",
+  "author": "https://github.com/luscus/socket.model.client/graphs/contributors",
+  "bugs": "https://github.com/luscus/socket.model.client/issues",
+  "description": "A socket template providing Client Model behaviours for Application Framework Socket Objects.",
+  "keywords": [
+    "network",
+    "net",
+    "socket",
+    "model",
+    "client"
+  ],
+  "dependencies": {
+    "socket.lib.tools": "0.0.2",
+    "assert-plus": "0.1.5",
+    "node.extend": "1.1.3",
+    "application.mixin.automaton": "0.0.2",
+    "prototype-less": "0.0.2"
+  },
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-license-report": "0.0.8",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-mocha-test": "0.10.2",
+    "load-grunt-tasks": "0.6.0",
+    "chai": "1.9.1",
+    "mocha": "1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luscus/socket.model.client.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
