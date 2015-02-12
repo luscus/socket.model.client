@@ -1,6 +1,6 @@
 {
   "name": "socket.model.client",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "dependencies": {
     "application.mixin.automaton": {
       "version": "0.0.2",
@@ -28,14 +28,26 @@
       "dependencies": {
         "is": {
           "version": "2.1.0",
-          "from": "is@~2.1.0"
+          "from": "is@2.1.0"
         }
       }
     },
     "prototype-less": {
-      "version": "0.0.2",
-      "from": "prototype-less@0.0.2",
-      "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.0.2.tgz"
+      "version": "0.1.1",
+      "from": "prototype-less@0.1.1",
+      "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.1.tgz",
+      "dependencies": {
+        "node.extend": {
+          "version": "1.1.2",
+          "from": "node.extend@1.1.2",
+          "dependencies": {
+            "is": {
+              "version": "2.0.2",
+              "from": "is@~2.0.0"
+            }
+          }
+        }
+      }
     },
     "socket.lib.tools": {
       "version": "0.0.2",
