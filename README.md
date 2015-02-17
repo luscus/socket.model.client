@@ -1,10 +1,12 @@
-# socket.model.client
+# [socket.model.client](https://github.com/luscus/socket.model.client)
+
+[![NPM](https://nodei.co/npm/socket.model.client.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/socket.model.client/)
+
 [![NPM version](https://img.shields.io/npm/v/socket.model.client.svg?style=flat)](https://www.npmjs.com/package/socket.model.client "View this project on NPM")
-[![NPM downloads](https://img.shields.io/npm/dm/socket.model.client.svg?style=flat)](https://www.npmjs.com/package/socket.model.client "View this project on NPM")
 [![David](https://img.shields.io/david/luscus/socket.model.client.svg?style=flat)](https://david-dm.org/luscus/socket.model.client)
 [![David](https://img.shields.io/david/dev/luscus/socket.model.client.svg?style=flat)](https://david-dm.org/luscus/socket.model.client#info=devDependencies)
 [![NPM license](https://img.shields.io/npm/l/socket.model.client.svg?style=flat)](https://www.npmjs.com/package/socket.model.client "View this project on NPM")
-[![flattr](https://img.shields.io/badge/flattr-donate-yellow.svg?style=flat)](http://flattr.com/thing/3817419/luscus-on-GitHub)
+[![Omniref](https://img.shields.io/badge/Omniref-docs-orange.svg?style=flat)](https://www.omniref.com/js/npm/socket.model.client)
 
 A socket template providing [Client Model](http://en.wikipedia.org/wiki/Network_socket#Socket_states_and_the_client-server_model)
 behaviours for [Application Framework](https://github.com/luscus/application.skeleton) Socket Objects.
