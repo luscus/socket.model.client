@@ -15,6 +15,7 @@
     "client"
   ],
   "dependencies": {
+    "socket.packet.base": "0.0.3",
     "socket.lib.tools": "0.0.3",
     "assert-plus": "0.1.5",
     "node.extend": "1.1.3",
