@@ -1,6 +1,6 @@
 {
   "name": "socket.model.client",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "dependencies": {
     "application.mixin.automaton": {
       "version": "0.0.2",
