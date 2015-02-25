@@ -1,6 +1,6 @@
 {
   "name": "socket.model.client",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "dependencies": {
     "application.mixin.automaton": {
       "version": "0.0.2",
@@ -31,24 +31,24 @@
       "dependencies": {
         "is": {
           "version": "2.1.0",
-          "from": "https://registry.npmjs.org/is/-/is-2.1.0.tgz",
+          "from": "is@2.1.0",
           "resolved": "https://registry.npmjs.org/is/-/is-2.1.0.tgz"
         }
       }
     },
     "prototype-less": {
       "version": "0.1.1",
-      "from": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.1.tgz",
+      "from": "prototype-less@0.1.1",
       "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.1.tgz",
       "dependencies": {
         "node.extend": {
           "version": "1.1.2",
-          "from": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
+          "from": "node.extend@1.1.2",
           "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
           "dependencies": {
             "is": {
               "version": "2.0.2",
-              "from": "https://registry.npmjs.org/is/-/is-2.0.2.tgz",
+              "from": "is@~2.0.0",
               "resolved": "https://registry.npmjs.org/is/-/is-2.0.2.tgz"
             }
           }
@@ -58,11 +58,53 @@
     "socket.lib.tools": {
       "version": "0.0.3",
       "from": "socket.lib.tools@0.0.3",
+      "resolved": "https://registry.npmjs.org/socket.lib.tools/-/socket.lib.tools-0.0.3.tgz",
       "dependencies": {
         "request-ip": {
           "version": "0.0.4",
           "from": "https://registry.npmjs.org/request-ip/-/request-ip-0.0.4.tgz",
           "resolved": "https://registry.npmjs.org/request-ip/-/request-ip-0.0.4.tgz"
+        }
+      }
+    },
+    "socket.packet.base": {
+      "version": "0.0.3",
+      "from": "socket.packet.base@0.0.3",
+      "resolved": "https://registry.npmjs.org/socket.packet.base/-/socket.packet.base-0.0.3.tgz",
+      "dependencies": {
+        "package.loader": {
+          "version": "0.2.2",
+          "from": "https://registry.npmjs.org/package.loader/-/package.loader-0.2.2.tgz",
+          "resolved": "https://registry.npmjs.org/package.loader/-/package.loader-0.2.2.tgz"
+        },
+        "prototype-less": {
+          "version": "0.1.2",
+          "from": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.2.tgz",
+          "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.2.tgz",
+          "dependencies": {
+            "node.extend": {
+              "version": "1.1.2",
+              "from": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
+              "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
+              "dependencies": {
+                "is": {
+                  "version": "2.0.2",
+                  "from": "https://registry.npmjs.org/is/-/is-2.0.2.tgz",
+                  "resolved": "https://registry.npmjs.org/is/-/is-2.0.2.tgz"
+                }
+              }
+            }
+          }
+        },
+        "hashids": {
+          "version": "1.0.1",
+          "from": "https://registry.npmjs.org/hashids/-/hashids-1.0.1.tgz",
+          "resolved": "https://registry.npmjs.org/hashids/-/hashids-1.0.1.tgz"
+        },
+        "package.root": {
+          "version": "0.2.0",
+          "from": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz",
+          "resolved": "https://registry.npmjs.org/package.root/-/package.root-0.2.0.tgz"
         }
       }
     }
