@@ -1,6 +1,6 @@
 {
   "name": "socket.model.client",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "dependencies": {
     "application.mixin.automaton": {
       "version": "0.0.2",
@@ -31,25 +31,21 @@
       "dependencies": {
         "is": {
           "version": "2.1.0",
-          "from": "is@2.1.0",
-          "resolved": "https://registry.npmjs.org/is/-/is-2.1.0.tgz"
+          "from": "is@2.1.0"
         }
       }
     },
     "prototype-less": {
       "version": "0.1.1",
       "from": "prototype-less@0.1.1",
-      "resolved": "https://registry.npmjs.org/prototype-less/-/prototype-less-0.1.1.tgz",
       "dependencies": {
         "node.extend": {
           "version": "1.1.2",
           "from": "node.extend@1.1.2",
-          "resolved": "https://registry.npmjs.org/node.extend/-/node.extend-1.1.2.tgz",
           "dependencies": {
             "is": {
               "version": "2.0.2",
-              "from": "is@~2.0.0",
-              "resolved": "https://registry.npmjs.org/is/-/is-2.0.2.tgz"
+              "from": "is@~2.0.0"
             }
           }
         }
@@ -58,7 +54,6 @@
     "socket.lib.tools": {
       "version": "0.0.3",
       "from": "socket.lib.tools@0.0.3",
-      "resolved": "https://registry.npmjs.org/socket.lib.tools/-/socket.lib.tools-0.0.3.tgz",
       "dependencies": {
         "request-ip": {
           "version": "0.0.4",

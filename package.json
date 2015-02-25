@@ -1,6 +1,6 @@
 {
   "name": "socket.model.client",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "license": "MIT",
   "main": "./lib/socket.model.client",
   "homepage": "https://github.com/luscus/socket.model.client",
