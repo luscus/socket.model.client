@@ -18,7 +18,7 @@
     "socket.packet.base": "0.0.4",
     "socket.lib.tools": "0.0.5",
     "assert-plus": "0.1.5",
-    "node.extend": "1.1.3",
+    "node.extend": "1.1.7",
     "application.mixin.automaton": "0.0.2",
     "prototype-less": "0.1.1"
   },
